@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Rubik', Arial, sans-serif;
+    color: #282d3c;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: #6e1cad;
+}
+h1 {
+    color: #18253b;
+    font-size: 400%;
+    letter-spacing: 8px;
+
+}
+p {
+    color:#7e818a;
+    font-weight: 400;
+}
+.container {
+    text-align: center;
+    margin: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+li{
+    margin-right: 50px;
+}
+.nav, .busca{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+}
+.btn__busca{
+    text-align: center;
+    background-color: #6e1cad;
+    font-weight: bold;
+    border: 0;
+    height: 40px;
+    width: 60px;
+    margin-right: 15px;
+}
+.busca {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+    border: 0;
+}
+.busca__imput{
+    border-radius: 5px;
+    border: 0;
+    background-color: #d9dde9;
+    color: #7e818a;
+    height: 40px;
+    width: 250px;
+    margin-right: 10px;
+}
+.busca__icones{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 15px;
+}
+.nav_menu{
+    border: 1px solid #adb0b8;
+}
+.menu__links {
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 500;
+}
+.destaque, .grandes_ofertas, .lancamento {
+    background-color:#ebede6;
+    padding-top: 20px;
+}
+.destaque {
+    background: url(../img/destaque/destaque.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+    background-color: #ebede6;
+    display: flex;
+    flex-direction: column;
+}
+.destaque__itens{
+    margin-right: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.destaque__subtitle {
+    text-align: left;
+    margin-top: 15px;
+}
+.btn__destaque{
+    text-align: center;
+    background-color: #007693;
+    font-weight: bold;
+    border: 0;
+    height: 30px;
+    width: 220px;
+    margin-right: 15px;
+    margin-top: 70px;
+}
+.ofertas__itens {
+    display: flex;
+    flex-direction: column;
+}
+.grandes_ofertas{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.grandes_ofertas__titulo {
+    color: #18253b;
+    font-weight: 500;
+    display: flex;
+    margin-top: 50px;
+}
+.grandes_ofertas__img {
+    display: flex;
+    justify-content:space-around; 
+}
+.grandes_ofertas__img > img {
+    height: 90%;
+    margin: 10px;
+}
+.grandes_ofertas__destaque {
+    background: url(../img/grandes_ofertas/goferta04.jpg);
+    background-repeat: no-repeat;
+    background-color: #ebede6;
+    padding-bottom: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__oferta{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    font-weight: 500;
+    border-radius: 0;
+    align-content: center;
+    text-align: center;
+    margin-top: 222px;
+    margin-right: 576px;
+}
+.grandes_ofertas__img2 > img {
+    height: 90%;
+    margin: 15px;
+}
+.grandes_ofertas__img2 {
+    background-color: #ebede6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.lancamento__img, .lancamento__img3 {
+    display: flex;
+    flex-direction: column;
+}
+.lancamento__img3 {
+    padding-bottom: 20px;
+}
